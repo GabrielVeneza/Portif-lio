@@ -13,6 +13,9 @@
 
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/tooplate-style.css">
+
+    <!-- ANIMAÇÕES -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
     <base target="_blank">
 
@@ -70,7 +73,7 @@
                         <h1 class="animated animated-text">
                             <span class="mr-2">Olá, eu sou</span>
                                 <div class="animated-info">
-                                    <span class="animated-item">Gabriel.</span>
+                                    <span class="animated-item" >Gabriel.</span>
                                     <span class="animated-item">Graphic e</span>
                                     <span class="animated-item">Web Designer!</span>
                                 </div>
@@ -78,7 +81,7 @@
 
                         <p>Construir um produto de sucesso é um desafio... Mas estou animado para que possamos superá-lo juntos!</p>
                         
-                        <div class="custom-btn-group mt-4">
+                        <div class="custom-btn-group mt-4" data-aos="fade-right" data-aos-duration="600">
                           <a style="margin-top: 15px;" href="https://drive.google.com/file/d/1PS0SmWXd-HLPGQUlFBrfMUTc3x7MeFdV/view?usp=sharing" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i>Baixar Currículo</a> 
                           <a style="margin-top: 15px;" href="https://github.com/GabrielVeneza" class="btn mr-lg-2 custom-btn">GitHub</a>
                           <a style="margin-top: 15px;" href="mailto:contatogabriel.oliverdesign@gmail.com" class="btn custom-btn custom-btn-bg custom-btn-link">Faça um orçamento grátis!</a>
@@ -86,7 +89,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-5 col-md-12 col-12">
+                <div class="col-lg-5 col-md-12 col-12" data-aos="zoom-in" data-aos-duration="600">
                     <div class="about-image svg">
                       <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                       <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_1qgHjN.json"  background="transparent"  speed="1"  style="width: auto;"  loop  autoplay></lottie-player>
@@ -105,12 +108,12 @@
                 <div class="row">
                   <div class="col-lg-11 text-center mx-auto col-12">
 
-                      <div class="col-lg-8 mx-auto">
+                      <div class="col-lg-8 mx-auto" data-aos="fade-up" data-aos-duration="700">
                         <h2>Alguns projetos em que trabalhei</h2>
                         <span class="mobile-block">clique nas imagens</span></small>
                       </div>
 
-                      <div class="owl-carousel owl-theme">
+                      <div class="owl-carousel owl-theme" data-aos="fade-up" data-aos-duration="700">
                         <div class="item">
                           <div class="project-info">
                             <a href="https://gabrielveneza.github.io/Clone-Netflix/"><img src="images/project/Netflix-clone.png" class="img-fluid" alt="Landing Page"></a>
@@ -146,9 +149,9 @@
             <div class="row">
 
                 <div class="col-lg-6 col-12">
-                  <h2 class="mb-4">Experience</h2>
+                  <h2 class="mb-4" data-aos="fade-right">Experience</h2>
 
-                    <div class="timeline">
+                    <div class="timeline" data-aos="fade-right" data-aos-duration="700">
                         <div class="timeline-wrapper">
                              <div class="timeline-yr">
                               <span>2017</span>
@@ -159,7 +162,7 @@
                              </div>
                         </div>
 
-                        <div class="timeline-wrapper">
+                        <div class="timeline-wrapper" data-aos="fade-right" data-aos-duration="700">
                             <div class="timeline-yr">
                                 <span>2019</span>
                             </div>
@@ -169,7 +172,7 @@
                             </div>
                         </div>
 
-                        <div class="timeline-wrapper">
+                        <div class="timeline-wrapper" data-aos="fade-right" data-aos-duration="700">
                           <div class="timeline-yr">
                               <span>2021</span>
                           </div>
@@ -182,9 +185,9 @@
                 </div>
 
                 <div class="col-lg-6 col-12">
-                  <h2 class="mb-4 mobile-mt-2">Skills</h2>
+                  <h2 class="mb-4 mobile-mt-2" data-aos="fade-left" data-aos-duration="700">Skills</h2>
 
-                    <div class="timeline">
+                    <div class="timeline" data-aos="fade-left" data-aos-duration="700">
                         <div class="timeline-wrapper">
                              <div class="timeline-yr">
                                   <span>•</span>
@@ -195,7 +198,7 @@
                              </div>
                         </div>
 
-                        <div class="timeline-wrapper">
+                        <div class="timeline-wrapper" data-aos="fade-left" data-aos-duration="700">
                             <div class="timeline-yr">
                                 <span>•</span>
                             </div>
@@ -287,6 +290,13 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
+     
+    
+    <!-- ANIMAÇÕES -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
   </body>
 </html>
