@@ -568,3 +568,12 @@ b, strong {
     vertical-align: top;
   }
 }
+
+#img-about{
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  #img-about {
+    display: block;
+  }
+}
