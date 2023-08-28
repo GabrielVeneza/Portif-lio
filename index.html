@@ -55,6 +55,41 @@
             "contactType": "customer service"
           },
         },
+
+        <!--
+          BreadcrumbList ----------------------------------------------------------
+        -->
+
+        {
+          "@context": "https://schema.org/",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://portifolio-liard-gamma.vercel.app"
+          }, {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Sobre",
+            "item": "https://portifolio-liard-gamma.vercel.app/#about"
+          }, {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Projetos",
+            "item": "https://portifolio-liard-gamma.vercel.app/#project"
+          }, {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Currículo",
+            "item": "https://portifolio-liard-gamma.vercel.app/#resume"
+          }]
+        },
+
+        <!--
+          ImageObject ------------------------------------------------------------
+        -->
+
         [
           {
             "@context": "https://schema.org/",
@@ -113,7 +148,7 @@
               "© 2021 Gabriel Oliveira. Todos os direitos reservados.",
           },
         ]
-        
+
       }
     </script>
 </head>
